@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# Model weights (large binary files)
+*.pt
+*.onnx
+*.pth
+
+# InsightFace downloaded models
+~/.insightface/
+
+# Database
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Logs and face crop images
+logs/
+
+# Video files
+videos/
+
+# Diagnostic / temp scripts
+diag_script.py
+diag_out*.txt
+run_out.txt
+run_headless.py
+run_and_log.bat
+tuning_experiment.py
+test_suite_final.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

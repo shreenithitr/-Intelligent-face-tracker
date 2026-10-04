@@ -1,0 +1,16 @@
+{
+  "video_source": "videos/video_sample1.mp4",
+  "detection_skip_frames": 1,
+  "recognition_threshold": 0.35,
+  "min_face_size": 25,
+  "tracker_max_age": 30,
+  "tracker_min_hits": 3,
+  "max_missed_frames": 150,
+  "embedding_model": "buffalo_l",
+  "yolo_model": "yolov8n-face.pt",
+  "yolo_confidence": 0.25,
+  "database_path": "data/visitors.db",
+  "logs_dir": "logs",
+  "display_window": true,
+  "rtsp_url": "rtsp://username:password@camera_ip:554/stream"
+}
